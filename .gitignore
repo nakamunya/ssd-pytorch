@@ -1,0 +1,28 @@
+# compilation and distribution
+__pycache__
+*.pyc
+*.so
+ext/build/
+ext/torch_extension.egg-info/
+dist/
+*.egg-info
+outputs
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Pycharm editor settings
+.idea
+.DS_Store
